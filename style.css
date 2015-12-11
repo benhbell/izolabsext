@@ -25,7 +25,8 @@ Tags: html5, themplate, landing page, app landing page
 body {
     background-color: #34495e;
     color: #c8c8c8;
-    font-family: 'Roboto', sans-serif;
+     font-family: proxima-nova, sans-serif;
+ font-style: normal;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -66,7 +67,7 @@ ul li {
 	max-width: 350px;
 	margin: auto;
 	margin-bottom: 80px;
-	color: #0099FF;
+	color: #5099D0 !important;
 }
 .underline:before {
 	position: absolute;
@@ -96,9 +97,9 @@ ul li {
 	transition: all 0.3s;
 }
 .custom-btn:hover {
-	background-color: #0099FF;
+	background-color:  #5099D0 !importantF;
 	color: #fff;
-	border-color: #0099FF;
+	border-color:  #5099D0 !importantF;
 }
 .btn:active, .btn.active {
 	outline: none;
@@ -136,7 +137,7 @@ ul li {
 	transition: all 0.3s;
 }
 .social a:hover {
-	color: #0099FF;
+	color:  #5099D0 !importantF;
 }
 .form-control {
 	color: #555;
@@ -148,7 +149,7 @@ ul li {
 }
 .form-control:focus,
 textarea:focus {
-	border-color: #0099FF !important;
+	border-color:  #5099D0 !importantF !important;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -160,7 +161,7 @@ textarea:focus {
    3. Section Header                 
 ========================================= */
 header {
-	background: url(images/bg.jpg) 50% 0 no-repeat fixed;
+	background: url(images/Background_izo-labs.png) 50% 0 no-repeat fixed;
 	background-size: cover;
 }
 .top .photo-slide {
@@ -197,13 +198,16 @@ header {
 	-webkit-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
+	background-color: #5099D0;
+	border:none !important;
+	border-radius: 5px;
 }
 .top .content .button a i {
 	margin-right: 20px;
 }
 .top .content .button a:hover {
-	background-color: #fff;
-	color: #222;
+	background-color: #396496 !important;
+	color: #FFFFFF !important;
 }
 
 
@@ -229,7 +233,7 @@ header {
 	line-height: 35px;
 }
 .navigation .navbar-default {
-	background-color: #181B3D;
+	background-color: #5099D0;
 	box-shadow: 0 0px 10px rgba(0,0,0,.2);
 	border: none;
 	border-radius: 0;
@@ -247,7 +251,7 @@ header {
 .navigation .navbar-default .navbar-nav>.active>a:hover,
 .navigation .navbar-default .navbar-nav>.active>a:focus {
  	background: none;
- 	color: #0099FF;
+ 	color: #000000;
  }
 .navigation .btn-default:hover,
 .navigation .btn-default:focus,
@@ -276,7 +280,7 @@ header {
 	width: 60px;
 	height: 60px;
 	border-radius: 100%;
-	border: 1px solid #0099FF;
+	border: 1px solid #5099D0 !important;
 	text-align: center;
 	padding: 15px 0;
 	-webkit-transition: all 0.5s;
@@ -286,7 +290,7 @@ header {
 .featured-item .icon i {
 	font-size: 30px;
 	margin-top: 0px;
-	color: #0099FF;
+	color:  #5099D0 !important;
 }
 .featured-item h3 {
 	margin-top: 10px;
@@ -447,7 +451,7 @@ header {
 }
 .description .content .list-item li i {
 	margin-right: 15px;
-	color: #0099FF;
+	color:  #5099D0 !importantF;
 }
 .description .content .list-item li{
 	margin-bottom: 15px;
@@ -638,8 +642,8 @@ header {
 }
 .price .price-list ul li i.fa-check {
 	margin-right: 20px;
-	border: 1px solid #0099FF;
-	color: #0099FF;
+	border: 1px solid  #5099D0 !importantF;
+	color:  #5099D0 !importantF;
 }
 .price .price-list ul li i.fa-times {
 	margin-right: 20px;
@@ -648,7 +652,7 @@ header {
 	color: #e74c3c;
 }
 .price .price-list .rate {
-	background: #0099FF;
+	background:  #5099D0 !importantF;
 	color: #fff;
 	font-size: 40px;
 	text-align: center;
@@ -664,7 +668,7 @@ header {
 }
 .price .price-list .buy-now {
 	border: 1px solid transparent;
-	background: #0099FF;
+	background:  #5099D0 !importantF;
 	padding: 10px 30px;
 	border-radius: 0;
 	font-size: 20px;
@@ -715,8 +719,8 @@ header {
 	transition: all 0.3s;
 }
 .input-group-addon:hover {
-	background-color: #0099FF;
-	border-color: #0099FF;
+	background-color:  #5099D0 !importantF;
+	border-color:  #5099D0 !importantF;
 	color: #fff;
 }
 
